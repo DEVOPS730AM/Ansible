@@ -15,7 +15,7 @@
     
 - name: download artifacts
   get_url:
-    url: http://18.234.106.129:8081/nexus/service/local/repositories/ram/content/ram/ram/1/ram-1.war
+    url: http://18.234.106.129:8081/nexus/service/local/repositories/ram/content/ram/ram/2/ram-2.war
     dest: /usr/share/tomcat/webapps
     url_username: ram
     url_password: ram
